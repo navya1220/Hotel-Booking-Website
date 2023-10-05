@@ -1,0 +1,649 @@
+
+.hotelContainer {
+    width: 100%;
+    height: 4417px;
+    background: #222;
+}
+
+.hotelContainer1 {
+
+
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    align-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+}
+
+.view {
+    display: flex;
+    justify-content: right;
+}
+
+.loginBtn {
+    width: 133px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #FF7665;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    border-width: 0px;
+}
+
+.hotelImage {
+    border-radius: 16px;
+    background: url("https://s3-alpha-sig.figma.com/img/e4a8/f302/6a912ef0315ac2a3cb0379dc9782f7eb?Expires=1697414400&Signature=kFdIooRhxbzTl~~ZjOYGLv4G6QaOTGCHWTk4mqXYknMaHOGtoD6RvmxGEKomUBndNFlur1b4L9wFlgm6vtfyIyHq9FgsMxbAgZ6RKK3c0M8KwLCcnhvC~coly0uVuuqTI2kTB~FuhPnvt8A537U~-o0Mz2~rc3RZFZjiJBKhz4YphM6LtA~y2hDbcdEqsr40gkgKWs9BFJYOz-4hJ6rRoD2veBEB7RbZvyDR1Ru60J68iVlc29te-pQxI0Lj2TS6syiFltcA4Zd1W-OeTQpKx3zFfNCRA4JeA4DlsNv5irS9sCsG16Sdb8mPeyP4mRcBaMrS4k8JfRCbi9JWTpLTAA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+    width: 674px;
+    height: 457px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 40px;
+
+}
+
+.headerCard1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.searchCard1 {
+    display: flex;
+    justify-content: center;
+}
+
+.headerCard {
+    width: 1320px;
+    height: 656px;
+    flex-shrink: 0;
+    border-radius: 50px 50px 0px 0px;
+    background: rgba(36, 171, 112, 0.04);
+    border-radius: 16px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.searchCard {
+    width: 1000px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: #FFF;
+    box-shadow: 0px 22px 38px 0px rgba(0, 34, 19, 0.08);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchButton1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchButton {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+    border-radius: 280px;
+    background: rgba(255, 84, 62, 0.80);
+    border-width: 0px;
+    margin-left: 60px;
+}
+
+.line {
+    width: 1px;
+    height: 60px;
+    background: #E8E8E8;
+}
+
+.text {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+}
+
+.para {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.smallCard1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.headerCardText {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    margin: 30px;
+}
+
+.heading {
+    width: 499px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    font-family: Roboto;
+}
+
+
+.paragraph {
+    width: 515px;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 160% */
+}
+
+.watchVideo {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+
+
+.watchvideocard {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.searchCard {
+    width: 1000px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: #FFF;
+    box-shadow: 0px 22px 38px 0px rgba(0, 34, 19, 0.08);
+}
+
+.roomsHeading {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 150% */
+}
+
+.viewBtn {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 109px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: rgba(255, 118, 101, 0.40);
+    margin: 0px;
+}
+
+.roomCard {
+    width: 411px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FAFAFA;
+}
+
+.roomImage {
+    border-radius: 16px 16px 0px 0px;
+    background: url("https://s3-alpha-sig.figma.com/img/23b5/2f62/15cf3398578940ec91d21e78cd9fcb59?Expires=1697414400&Signature=jGRfgYQRlwE4CEL~h-vT6JyQ1krPx0rxlsxUz6BNKzTXijLtlRb6Al1ehhaeUBuzTBDLI7efFqUvLvACr73uZcgzat3JzNQKwvtHnolEJ1Eye5eI06U7dwlqNewvYGsBI90Xmdin07qvia2GJ8zuIHvkxhVDdvsJpvyTjxjNYXVgbcCRuLTNTf8FWMVvMX3AeyvBWT8dlDykATTtMEc1PLzxRFJL5uL1unknmMoJqAW7gBPT3aDITKsqdUgb0ImR6PQrNb9x1FQGyKO~w3T1B8RAVWoOdCKIBSFJXbE2KVaxbWIf-7ZLKffbAlfWDigVhjK-xtd70PMWpTspD7J16g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+    width: 411px;
+    height: 320px;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.roomImage2 {
+    border-radius: 16px 16px 0px 0px;
+    background: url("https://s3-alpha-sig.figma.com/img/ae15/5973/d6ddbfddc951e9d1687be42108262156?Expires=1697414400&Signature=b23xz04Q1QKsRTiFRlvDtcBOiOOAFv5hR~SmVAo8hUdsgk5XwG2AMWVDVs53LAdukzRLZC3FKiueCeiz6bgFSnn39m0yH0xAvkbNIzKQxv1ON29dXtrUG3xVznI-yayqRAE858SKwyf~~3cUr7kbfeWaC-NH408~h6Q0LxZiTLJ9X3QAa83glOk04hsRjesms5gMAHUBwv9k~1GKlcgwY1u4T7x2I60j0aAkhyxAJtwuqni1sVFl-u5mfj4X8A0lM~0g7o11tj183gybpGtqc0MNxcAp7RrLCkDR1RfHePLDZSlaHxc8Z-00kDbRmCbkaN3S2CBG-qCQgQEb8Uds7Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+    width: 411px;
+    height: 320px;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.roomImage3 {
+    border-radius: 16px 16px 0px 0px;
+    background: url("https://s3-alpha-sig.figma.com/img/607d/299c/3ce7b4f8fde8359dcf4b9d966ccaf568?Expires=1697414400&Signature=iMqSAM-TpWqpZH14t6BwO7Lg4gBer5bjS1MuQ9huR7uCYVdmtEcFFlAppyfs0CliS7caJYQxhRMcpBNUDnaxwm9VYzIg~HXYCHaxfxxukd8xH~e~oXoWN9hJblJePhqPcgIbVR9daezzsd0oAiVHqf0wFQWW0wStqGPUxeI9X0w4p7Yni~01bsTL88AFeuH8bjhq9I6fvLdj304zVB59K-m-jC~m6MxtIZiR~0i7rq4K6-GNfyHDxb-Ztz4tBV4NJyeSbows0Mu5uOuBks~eEGmKRq3DJIEnHwMFnDWr4xX4aIWI~98X9yUJ8EDHeZzsyxwvxLl09i~X-LJ1W59Oww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+    width: 411px;
+    height: 320px;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.roomText {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 125% */
+}
+
+.roomCardratingCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.roomCardText {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.roomsContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.roomFacilitiesCard {
+    width: 1279px;
+    height: 410px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.roomFacilitiesCardText {
+    width: 411px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    /* 125% */
+}
+
+.roomFacilitiesCardpara {
+    width: 386px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.ContactBtn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 35px;
+    background: rgba(255, 118, 101, 0.80);
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px;
+    /* 150% */
+}
+
+.roomFacilitiCard {
+    width: 193px;
+    height: 193px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.facilitiesCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.exploreMoreCard {
+    width: 1280px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F4FBF8;
+    display: flex;
+}
+
+.swimmingPoolImage {
+    border-radius: 16px;
+    background: url("https://s3-alpha-sig.figma.com/img/8563/ecfc/0bec1155849fed9bf2dc78b7d0a77f0c?Expires=1697414400&Signature=eNdMMghSkqkySVeu37osauVy4RWPMyKOy~AT2ylOFoQyb3W4pPZgOuJBEfM1KWoA4AJncRoZVg3Ul7lktWOH4Un4lO3crX1bLky5JKGH7eeyGopwrsYTNdixjIasa4kYOvLFcWHOhvaSNFaKlmpzoTRzAitcXcdTyU0HFZkjeKre575BvdgAlFk9e-qiYsBevRw19AzDJppNsHT3tZ2U3WBAdlGpBha7wKvd-9XPwWxCuCKQIQORRiBGrUZ-PW2PL3lM5rB40YoYzZr0Wo8fUWX~xMkKj9Q-zeJCw5ICw0JuIvLqV6B8EDU2kXsqUbIdmrl53NGbWaaUgalspPbj7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+    width: 667px;
+    height: 520px;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.exploreMoreCardText {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    /* 125% */
+}
+
+.exploreMoreCardPara {
+    width: 497px;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.exploreBtn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    width: 180px;
+    border-radius: 35px;
+    background: #FF7665;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    border-width: 0px;
+}
+
+.exploreSecondHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.questionText {
+    width: 411px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 62.4px */
+    text-transform: capitalize;
+}
+
+.highletText {
+    color: #FF7665;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.questionpara {
+    width: 410px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.questionsCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.questionCard1 {
+    width: 682px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #585858;
+    background: #FFF;
+    box-shadow: 6px 10px 50px 0px rgba(168, 175, 183, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.questionCard2 {
+    width: 682px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.questionsCardText {
+    color: #0C1623;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    /* 30.6px */
+    text-transform: capitalize;
+}
+
+.questionsCardText1 {
+    color: #0C1623;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+}
+
+.questionsCardPara {
+    width: 628px;
+    color: rgba(29, 38, 58, 0.90);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.arrow {
+    display: flex;
+    justify-content: right;
+}
+
+.mapCard {
+    border-radius: 16px;
+    background: url("https://s3-alpha-sig.figma.com/img/ea38/e476/01b01c2d6d8eb85c6087fccad0ae580b?Expires=1697414400&Signature=pIxX-t45UNVGbjtnvBeVHC7SScZJUFfZ1klm9zPCUeGCq4e5OJ5RawiwwIdXBYk6973HTGCTTpFkfCUGPCGf~WHmX-SFxHYX8pZ1IsnH~Z8b8B2oSUwj9a3K8qKiRKak0X8SYejzAhD8r4jTVKNehA7YwEeiV4uLDVfZHdyiCGv5gSGkVeHwkKMTPE~Yz2fsf8fhvrCIY~YYLjA4Y~ZdzQvzOQc6xUhU07y7ghKwTfeqmiFnwlzV07cxhwGpoQh4-WvvxJp1lg4tDibDq4Hubs7Xn8kJpsijDwLveyyCTrjFZC~qX~EJEaxwYtnoUJ-f1DGR~c4WkD-Qj7-uAl53Lw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / cover no-repeat;
+
+    width: 1280px;
+    height: 677px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.visitUsCard {
+    width: 1194px;
+    height: 199px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.subCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.mapText {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 111.111% */
+}
+
+.mapPara {
+    width: 550px;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-right: 40px;
+}
+
+.mapPara1 {
+    width: 300px;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.contactBtn1 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    width: 124px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: rgba(211, 101, 88, 0.80);
+    border-width: 0px;
+}
+
+.endingCard {
+    width: 1550px;
+    height: 343px;
+    flex-shrink: 0;
+    fill: rgba(255, 118, 101, 0.80);
+    background-color: rgba(255, 118, 101, 0.80);
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: center;
+
+}
+
+.endingText {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.endingPara {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    width: 264px;
+}
